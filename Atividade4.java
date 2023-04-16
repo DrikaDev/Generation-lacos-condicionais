@@ -1,3 +1,15 @@
+/*
+Escreva um algoritmo em Java, que leia 3 palavras (String), 
+que definem as características de um tipo de animal possível segundo o diagrama abaixo, 
+que deve ser lido da esquerda para a direita.
+Em seguida, mostre na tela qual dos animais foi escolhido, através das três palavras fornecidas.
+Na construção do Algoritmo, utilize os seguintes conteúdos:
+Entrada e Saída de dados
+Operadores
+Laço Condicional If
+Utilize o Método String.equals() ou String.equalsIgnoreCase() para comparar as palavras.
+*/
+
 package Lacos_Condicionais;
 
 import java.util.Scanner;

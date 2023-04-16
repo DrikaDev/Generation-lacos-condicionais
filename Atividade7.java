@@ -1,3 +1,15 @@
+/*
+Escreva um algoritmo em Java, que simule uma Calculadora simples. 
+O programa deverá ler dois números float: numero1 e numero2, 
+e na sequência ler o Código da operação matemática (número inteiro de 1 a 4). 
+A seguir, mostre na tela o resultado da operação entre os 2 números. 
+Caso a operação seja diferente do intervalo 1 a 4, mostre a mensagem Operação Inválida!
+Na construção do Algoritmo, utilize os seguintes conteúdos:
+Entrada e Saída de dados
+Operadores
+Laço Condicional Switch
+*/
+
 package Lacos_Condicionais;
 
 import java.util.Scanner;
@@ -51,7 +63,7 @@ public class Atividade7 {
 			System.out.println(num1 + (" / ") + num2 + (" = ") + (num1 / num2));
 			break;
 			default:
-				System.out.println("Essa opção não existe!");
+				System.out.println("Operação inválida!");
 		}
 	}
 }
